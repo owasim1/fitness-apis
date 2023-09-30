@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "admin",
+    "password": "SecureAdmin",
+    "database": "fitness_stage",
+    "host": "fitness-stage-instance.ctfjseciayi1.us-east-2.rds.amazonaws.com",
+    "dialect": "mysql",
+    "port": 3306
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mssql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mssql"
+  }
+}
